@@ -6,6 +6,9 @@ on:
       - main
     tags:
       - 'v*'
+    paths-ignore:
+      - 'README.md'
+      - 'src/assets/**'
   pull_request:
     branches:
       - main
